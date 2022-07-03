@@ -19,7 +19,3 @@ class Mounter:
                 dbutils.fs.mount(bucket_path, mount_path)
 
 Mounter.mount_all()
-
-# COMMAND ----------
-
-display(dbutils.fs.mounts())
